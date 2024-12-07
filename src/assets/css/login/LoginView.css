@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "SUIT";
+  font-weight: normal;
+  src: url("../../font/SUIT-Regular.ttf") format("truetype");
+}
+
+body, html, #root {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'SUIT';
+
+  justify-content: center;
+}
+
+@font-face {
+  font-family: "Allimjang";
+  font-weight: normal;
+  src: url("../../font/Hakgyoansim\ Allimjang\ TTF\ R.ttf") format("truetype");
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 450px;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 33vh;
+  margin-bottom: 27vh;
+}
+
+.subtext {
+  font-family: 'Inter', sans-serif;
+  font-size: 7.3px;
+  color: #0670EF;
+  margin-top: 0;
+  margin-bottom: 12.5px;
+  text-align: left;
+  line-height: 9.68px;
+  margin-left: 0;
+}
+
+.main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Allimjang";
+  font-size: 45px;
+  color: #0670EF;
+}
+
+.login-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnImg {
+  width: 183px;
+  height: 45px;
+}
+
+.login-button:hover .login-button-image {
+  background-color: #FFC300;
+}
+
+.login-button:active .login-button-image {
+  box-shadow: none;
+}

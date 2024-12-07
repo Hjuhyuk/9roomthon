@@ -1,0 +1,55 @@
+body, html, #root {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'SUIT';
+  justify-content: center;
+}
+
+@font-face {
+  font-family: "Allimjang";
+  font-weight: normal;
+  src: url("../font/Hakgyoansim\ Allimjang\ TTF\ R.ttf") format("truetype");
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #0053D6;
+  max-width: 450px;
+}
+
+.animated-container {
+  display: flex;
+  justify-content: center;
+  
+  height: 100%;
+  background-color: #0053D6;
+}
+
+.animated-letter {
+  font-size: 45px;
+  font-family: 'Allimjang';
+  color: white;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1.5s forwards;
+  margin-top: 35.5vh;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

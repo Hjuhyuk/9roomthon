@@ -1,0 +1,113 @@
+body, html, #root {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'SUIT';
+    justify-content: center;
+  }
+  
+  .write-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: 450px;
+    background-color: #F2F6FD;
+    box-shadow: 0px 43px 56px 0px rgb(134, 134, 134);
+  }
+  
+  .write-header {
+    display: flex;
+    align-items: center;
+    background-color: #265BCB;
+    color: white;
+    height: 71px;
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .header-left {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+  }
+  
+  .write-header h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .write-content {
+    width: 90%;
+    margin-top: 20px;
+  }
+  
+  .write-label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    border: 0 0 1px;
+  }
+  
+  .write-input {
+    background-color: #F2F6FD;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 16px;
+    padding: 8px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #265BCB;
+    font-size: 14px;
+  }
+  
+  .write-textarea {
+    background-color:#F2F6FD;
+    width: 100%;
+    height: 170px;
+    padding: 8px;
+    border: 1px solid #F2F6FD;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .write-submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color: #265bcb;
+    color: white;
+    font-size: 10px;
+    white-space: nowrap;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  
+  .write-submit-btn p {
+    margin: 0;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .write-submit-btn:hover {
+    background-color: #1e4ca6;
+  }
+  
+  .write-submit-btn:active {
+    background-color: #183b85;
+  }
+  

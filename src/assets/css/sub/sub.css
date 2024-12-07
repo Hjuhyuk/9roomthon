@@ -1,0 +1,290 @@
+/* sub css */
+body,
+html,
+#root {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'SUIT';
+  justify-content: center;
+}
+
+.youtube {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Dropdown 스타일 */
+.dropdown-button {
+  font-family: 'SUIT';
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+  border: 1px solid white;
+  background-color: #265bcb;
+  border-radius: 10px;
+  width: 16%;
+  height: 22px;
+  cursor: pointer;
+  margin-left: 78%;
+  max-width: 450px;
+
+  position: relative;
+  top: -8px;
+}
+
+.dropdown-button-small {
+  font-family: 'SUIT';
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+  border: 1px solid white;
+  background-color: #265bcb;
+  border-radius: 10px;
+  width: 16%;
+  height: 22px;
+  cursor: pointer;
+  margin-left: 78%;
+  max-width: 450px;
+
+  position: relative;
+  top: -14px;
+}
+
+.dropdown-content {
+  text-align: start;
+  letter-spacing: 95%;
+  line-height: 27px;
+  font-size: 15px;
+  font-family: 'SUIT';
+  background-color: white;
+  border: 0.5px solid #265bcb;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  animation: slideDown 0.3s ease-out;
+  position: relative;
+  z-index: 100;
+}
+
+/* 드롭다운 애니메이션 */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/**/
+
+.beta {
+  height: 100%;
+  width: 100%;
+}
+
+/* 공용 서브 페이지 css */
+
+.sub-view-container {
+  background-color: #f2f6fd;
+  height: 100%;
+  width: 100%;
+  max-width: 450px;
+}
+
+.sub-Header {
+  background-color: #265bcb;
+  color: white;
+  height: 64px;
+  width: 100vw;
+  max-width: 450px;
+}
+
+.sub-Arrow {
+  margin-top: 14px;
+}
+
+.sub-map {
+  background-color: yellow;
+  height: 205px;
+  width: 86vw;
+  max-width: 387px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; /* #3 */
+}
+
+.sub-MainTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-left: 4px;
+  margin-top: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'SUIT', sans-serif;
+}
+
+.sub-Background {
+  background-color: #f2f6fd;
+  height: 900px;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sub-img {
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+.sub-ContainTitle {
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  margin-left: 50px;
+
+  white-space: pre-wrap; /* \n 줄바꿈 */
+}
+
+/* 개별 서브 페이지 css */
+
+.sub-Welfare__container {
+  background-color: white;
+  box-shadow: 2px 2px 6px;
+  width: 90vw;
+  height: 82px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 60px;
+  max-width: 405px;
+}
+
+.sub-Live__container {
+  background-color: white;
+  box-shadow: 2px 2px 6px;
+  width: 90vw;
+  height: 82px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 32px;
+  max-width: 405px;
+}
+
+.sub-Urgent__container {
+  background-color: white;
+  box-shadow: 2px 2px 6px;
+  width: 90vw;
+  height: 66px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 32px;
+  max-width: 405px;
+}
+
+.sub-Education__container {
+  background-color: white;
+  box-shadow: 2px 2px 6px;
+  width: 90vw;
+  height: 66px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 32px;
+  max-width: 405px;
+}
+
+.sub-educationTitle {
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+
+  white-space: pre-wrap; /* \n 줄바꿈 */
+
+  position: absolute;
+  left: 82px;
+
+  font-family: 'SUIT', sans-serif;
+
+  line-height: 15px;
+}
+
+/* map - health */
+
+.sub-health__container {
+  background-color: white;
+  box-shadow: 2px 2px 6px;
+  width: 86vw;
+  height: 74px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 405px;
+  cursor: pointer;
+}
+
+.sub-healthNumber {
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+  margin-top: 24px;
+
+  font-family: 'SUIT', sans-serif;
+}
+
+.sub-healthTitle {
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  margin-left: 60px;
+  margin-top: -25px;
+
+  font-family: 'SUIT', sans-serif;
+}
+
+.sub-healthDesc {
+  font-size: 9px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  margin-left: 60px;
+  margin-top: -1px;
+
+  font-family: 'SUIT', sans-serif;
+}
+
+.gap-margin {
+  height: 60px;
+  background-color: #f2f6fd;
+}

@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "SUIT";
+    font-weight: normal;
+    src: url("../../font/SUIT-Regular.ttf") format("truetype");
+}
+
+body, html, #root {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'SUIT';
+  justify-content: center;
+}
+
+.welfare-container p {
+    font-size: 17px;
+    line-height: 19px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+@media (max-width: 390px) {
+    .welfare-container p {
+        font-size: 13px;
+    }
+}
+
+.welfare-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: left;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid #0053D6;
+    width: 100%;
+    height: 88px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 68px;
+    margin-left: 6%;
+    margin-right: auto;
+}
+
+.health-icon-img {
+    width: 70px;
+    height: 50px;
+}
+
+.arrow-icon-img {
+    width: 31px;
+    height: 31px;
+    margin-left: 16px;
+}
+
+/*title, content 글씨체 SUIT로 교체*/
+
+.text-container {
+    width: 56%;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 12px;
+}
+
+.content {
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 390px) {
+    .content {
+        font-size: 9px !important;
+    }
+}
